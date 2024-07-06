@@ -76,7 +76,6 @@ class Alumno(models.Model):
     apellido_materno = models.CharField(max_length=100)
     fecha_nacimiento = models.DateField()
     genero = models.ForeignKey(Genero, on_delete=models.CASCADE) 
-    #genero = models.ForeignKey(Genero, on_delete=models.CASCADE, default=1)   #Relación con Genero
     telefono = models.CharField(max_length=15)
     email = models.EmailField()
     direccion = models.CharField(max_length=255)
