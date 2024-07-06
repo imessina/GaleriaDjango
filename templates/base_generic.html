@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Sitio{% endblock %}</title>
+    {% load static %}  <!-- Cargar la etiqueta static -->
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'cliente-list' %}">Clientes</a></li>
+            <!-- Agrega más enlaces según sea necesario -->
+        </ul>
+    </nav>
+    <main>
+        {% block content %}
+        <!-- El contenido específico de cada plantilla irá aquí -->
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Sitio</p>
+    </footer>
+</body>
+</html>

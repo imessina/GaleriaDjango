@@ -1,0 +1,87 @@
+
+        body {
+            background: #161616; /* Cambia el color de fondo del cuerpo del documento */
+        }
+        .center-text {
+            text-align: center; /* Centra el texto */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Cambia la fuente del texto */
+            color: white; /* Color del texto */
+            font-size: 75px; /* Tamaño de la fuente */
+        }
+        .center-text2 {
+            text-align: center; /* Centra el texto */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Cambia la fuente del texto */
+            color: white; /* Color del texto */
+            font-size: 50px; /* Tamaño de la fuente */
+        }
+        .carousel-item img {
+            width: 350px; /* Ancho deseado */
+            height: 350px; /* Alto deseado */
+        }
+        .card {
+            margin: 10px; /* Agrega un pequeño margen entre las tarjetas */
+        }
+        .btn-custom {
+            background-color: #919191; /* Cambia el color de fondo */
+            border-color: #ffffff; /* Cambia el color del borde */
+            color: #e6e6e6; /* Cambia el color del texto */
+            font-size: x-large; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: -50px; /* Ajusta el valor según sea necesario */
+            margin-right: 20px;
+            float: right;
+        }
+
+        .is-invalid {
+            border-color: #dc3545;
+        }
+        .invalid-feedback {
+            display: none;
+            color: #dc3545;
+        }
+        .is-invalid + .invalid-feedback {
+            display: block;
+        }
+        /* Estilo para los títulos */
+        .form-group label {
+            color: white; /* Color del texto */
+        }
+        label {
+            color: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table, th, td {
+            border: 1px solid black;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            color: white;  /* Cambia el color de las letras a blanco */
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;  /* Cambia el color de las letras a blanco */
+        }
+        
+        td {
+            background-color: #333;  /* Cambia el fondo de las celdas */
+        }
+        
+        .btn-eliminar {
+            background-color: red;
+            color: white;  /* Cambia el color de las letras a blanco */
+        }
+        
+        .btn-modificar {
+            background-color: yellow;
+            color: black;  /* Cambia el color de las letras a negro para mejor visibilidad */
+        }
+        
+  
